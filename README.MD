@@ -1,33 +1,36 @@
-# [🗝️MERN Auth-Z Pro]()
+# [🏦 StockWise Hub]()
 
-This project demonstrates advanced user authentication flows, secure authorization mechanisms, and professional-grade user management features.
+This full-stack application demonstrates inventory management capabilities with advanced user authentication, secure authorization, and professional-grade product management features.
 
 🛠 Technologies Used
-- React, SCSS, React Router V6, Node.js, Express.js, MongoDB, JWT, Google OAuth, SendGrid, Render (Backend), Vercel (Frontend)
+- React.js, SCSS, React Router V6, Redux Toolkit, Node.js, Express.js, MongoDB, JWT, Cloudinary, SendGrid, Render, Vercel
 
 ✨ Key Features
-- User Authentication
+- Complete Authentication Flow
   - Email & Password Registration/Login
   - Google OAuth Integration
   - Password Reset via Email
   - JWT-based Authentication
 - User Management
   - Role-based Authorization
-  - Profile Management
+  - Profile Image Upload
   - Password Change
   - Profile Updates
-- Security
+- Product Management
+  - Complete CRUD Operations
+  - Product Search & Filtering
+  - Image Upload with Cloudinary
+  - Dashboard Analytics
+  - Product Categories
+  - Stock Management
+- Security Features
   - Protected Routes
-  - Secure Cookie Handling
   - JWT Token Management
+  - Secure Cookie Handling
   - Auth Middleware Implementation
-- Email Features
-  - Automated Email Notifications
-  - Password Reset Links
-  - Email Verification
 
 🌟 Advanced Features
-  - Real-time Session Management
-  - Automated Email Workflows
-  - Role-based Access Control
-  - Secure Password Reset Flow
+- Real-time Session Management
+- Secure Password Reset Flow
+- Automated Email Workflows
+- Role-based Access Control

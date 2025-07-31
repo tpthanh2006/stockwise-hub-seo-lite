@@ -1,6 +1,6 @@
 {
-  "short_name": "AuthZ Pro",
-  "name": "AuthZ Pro - Advanced Authentication System",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
