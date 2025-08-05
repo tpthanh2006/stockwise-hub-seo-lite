@@ -1,0 +1,99 @@
+.profile {
+  .card-nav {
+    width: 100%;
+    max-width: 700px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .profile-details {
+        align-self: flex-start;
+      }
+
+      .all-products {
+        align-self: flex-end;
+      }
+    }
+  }
+
+  .card {
+    max-width: 700px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0;
+
+    .profile-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+
+      span {
+        &:first-child {
+          margin-right: auto; // Pushes first button to left
+        }
+        &:last-child {
+          margin-left: auto; // Pushes second button to right
+        }
+      }
+    }
+
+    hr {
+      margin: 0 1rem 2rem 1rem;
+      border: 0;
+      border-top: 1px solid #ccc;
+    }
+
+    span.profile-photo {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 350px;
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+
+    span.profile-data {
+      margin: 0 1rem;
+
+      .bio-content {
+        word-break: break-all;
+      }
+    }
+
+    span.profile-data > * {
+      border-top: 1px solid #ccc;
+      padding: 5px 0;
+    }
+
+    form {
+      .group {
+        border: 1px solid var(--light-blue);
+        padding: 5px;
+        margin-bottom: 5px;
+      }
+
+      .indicator {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 10px;
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  span.profile-photo {
+    margin: auto;
+  }
+}
