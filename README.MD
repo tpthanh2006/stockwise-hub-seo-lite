@@ -1,4 +1,4 @@
-# [🏦 StockWise Hub]()
+# [🏦 StockWise Hub](https://inventory-pilot-one.vercel.app/)
 
 This full-stack application demonstrates inventory management capabilities with advanced user authentication, secure authorization, and professional-grade product management features.
 
